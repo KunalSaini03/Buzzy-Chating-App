@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "Buzzy",
       debugShowCheckedModeBanner: false,
       home: const AuthGate(),
       theme: Provider.of<ThemeProvider>(context).themeData,
